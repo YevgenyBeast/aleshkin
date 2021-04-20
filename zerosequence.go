@@ -5,7 +5,7 @@ import "math"
 
 // Функция SolutionBinaryGap находит самую длинную последовательность нулей в двоичном представлении числа N
 func SolutionBinaryGap(N int) int {
-	var num uint
+	var num uint = 0
 	max := 0
 	seqlen := 0
 	if N == 0 {
